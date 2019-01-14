@@ -1,0 +1,11 @@
+To use, copy this into terminal line
+
+python label_image.py \
+--graph=128img/output_graph.pb --labels=128img/output_labels.txt \
+--input_layer=Placeholder \
+--output_layer=final_result \
+--image=(whatever your image location for testing is)
+
+
+
+Sorry the file is so big, but that's just how the graph is
