@@ -82,7 +82,7 @@ if __name__ == "__main__":
   input_mean = 0
   input_std = 255
   input_layer = "Mul"
-  output_layer = "InceptionV3/Predictions/Reshape_1"
+  output_layer = "final_result"
 
   parser = argparse.ArgumentParser()
   parser.add_argument("--image", help="image to be processed")

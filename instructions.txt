@@ -1,10 +1,8 @@
 To use, copy this into terminal line
 
 python label_image.py \
---graph=128img/output_graph.pb --labels=128img/output_labels.txt \
---input_layer=Placeholder \
---output_layer=final_result \
---image=(whatever your image location for testing is)
+--graph=classifier128YesNo/retrained_graph.pb --labels=classifier128YesNo/retrained_labels.txt \
+--image=test976six.jpg
 
 
 
